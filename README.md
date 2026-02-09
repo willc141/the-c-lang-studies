@@ -1,4 +1,6 @@
 # the-c-lang-studies
 
-Algumas anotações sobre o livro **a linguagem de programação C**. Estou ensinando a mim mesmo e a um amigo em conjunto.
-Não espere código limpo, muito menos funcional em situações extremas.
+Algumas anotações sobre o livro **a linguagem de programação C**, K&R.
+
+Pode servir como material de estudo lara 
+você, essa é uma versão resumida do livro original, do modo que eu entendo, e totalmente traduzida em português.
