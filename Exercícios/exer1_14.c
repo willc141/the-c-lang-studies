@@ -12,7 +12,7 @@ int main()
     i = j = 0;
     
     /* inicializa o array com 0's */
-    for (int i = 0; i < ASCII_SIZE; ++i) {
+    for (i = 0; i < ASCII_SIZE; ++i) {
         contagens[i] = 0;
     }
 
