@@ -13,21 +13,20 @@ não precisa necessariamente retornar os valores,
 apenas imprimir eles.
 o tipo void em uma função não exige e não recebe
 uma expressão return.*/
-void convert(int lower, int upper, int step, int fahr);
+void convert(int lower, int upper, int step);
 
 int main()
 {
-     int fahr = LOWER;
-
-     convert(LOWER, UPPER, STEP, fahr);
+     convert(LOWER, UPPER, STEP);
 }
 
 /* faz o cálculo, recebendo os valores de:
 lower upper, step, fahr
 todos são inteiros por sua vez, mas poderiam ser float/double.
 */
-void convert(int lower, int upper, int step, int fahr)
+void convert(int lower, int upper, int step)
 {
+    int fahr = lower;
     int celsius;
 
     while (fahr <= upper) {
