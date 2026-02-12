@@ -18,8 +18,10 @@ Exercício 1−6. Verifique se a expressão getchar() != EOF é 0 ou 1.
 Exercício 1−7. Escreva um programa para imprimir o valor de EOF.
 
 Exercício 1−8. Escreva um programa para contar espaços em branco, tabulações e novas linhas.
+
 Exercício 1−9. Escreva um programa para copiar a sua entrada para a sua saída, substituindo cada sequência de um ou mais espaços em branco por um
 único espaço em branco.
+
 Exercício 1−10. Escreva um programa para copiar a sua entrada para a sua saída, substituindo cada tabulação por \t, cada retrocesso por
 \b e cada barra invertida por \\. Isso torna as tabulações e os retrocessos visíveis de forma inequívoca.
 
