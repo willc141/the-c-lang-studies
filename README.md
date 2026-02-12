@@ -27,13 +27,12 @@ Exercício 1−10. Escreva um programa para copiar a sua entrada para a sua saí
 
 Exercício 1−11. Como testaria o programa de contagem de palavras? Que tipos de entrada são mais prováveis de revelar
 bugs, se houver algum?
+
 Exercício 1−12. Escreva um programa que imprima a sua entrada uma palavra por linha.
 
-Exercício 1−13. Escreva um programa para imprimir um histograma dos comprimentos das palavras na sua entrada. É fácil desenhar o
-histograma com as barras horizontais; uma orientação vertical é mais desafiante.
+Exercício 1−13. Escreva um programa para imprimir um histograma dos comprimentos das palavras na sua entrada. É fácil desenhar o histograma com as barras horizontais; uma orientação vertical é mais desafiante.
+
 Exercício 1−14. Escreva um programa para imprimir um histograma das frequências de diferentes caracteres na sua entrada.
-
-
 
 Exercício 1.15. Reescreva o programa de conversão de temperatura para usar uma função para conversão
 
