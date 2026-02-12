@@ -8,6 +8,7 @@ você, essa é uma versão resumida do livro original, do modo que eu entendo, e
 Exercícios resolvidos até agora:
 
 Exercício 1−3. Modifique o programa de conversão de temperatura para imprimir um título acima da tabela.
+
 Exercício 1−4. Escreva um programa para imprimir a tabela correspondente de Celsius para Fahrenheit.
 
 Exercício 1−5. Modifique o programa de conversão de temperatura para imprimir a tabela na ordem inversa, ou seja, de 300
