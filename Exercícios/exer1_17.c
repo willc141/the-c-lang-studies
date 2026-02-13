@@ -4,32 +4,32 @@ Exercise 1−17. Write a program to print all input lines that are longer than 8
 
 #include <stdio.h>
 #define MAXLINE 1000 /* tamanho máximo da linha */
-#define LIMIT 80 /* se linha for maior que LIMIT... */
+#define LIMITE 80 /* se linha for maior que LIMITE... */
 
-int get_line(char line[], int maxline);
+int get_line(char linha[], int maxline);
 
 int main()
 {
-    int len;
-    char line[MAXLINE];
+    int tan;
+    char linha[MAXLINE];
 
-    while ((len = get_line(line, MAXLINE)) > 0) {
-        if (len > LIMIT)
-            printf("%s", line);
+    while ((tan = get_line(linha, MAXLINE)) > 0) {
+        if (tan > LIMITE)
+            printf("%s", linha);
     }
 }
 
-int get_line(char line[], int lim)
+int get_line(char linha[], int lim)
 {
     int c, pos_atual;
 
     for (pos_atual = 0; pos_atual < lim - 1 &&(c = getchar()) != EOF &&c!='\n'; ++pos_atual)
-        line[pos_atual] = c;
+        linha[pos_atual] = c;
     if (c == '\n')
     {
-        line[pos_atual] = c;
+        linha[pos_atual] = c;
         ++pos_atual;
     }
-    line[pos_atual] = '\0';
+    linha[pos_atual] = '\0';
     return pos_atual;
 }
